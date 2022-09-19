@@ -71,18 +71,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS_PRODUCTION }}
           REMOTE_USER: ${{ secrets.USERNAME_PRODUCTION }}
           TARGET: ${{ secrets.TARGET_DIR_PRODUCTION }}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
 You have unread notifications
