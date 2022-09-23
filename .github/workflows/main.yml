@@ -29,6 +29,7 @@ jobs:
       - name: Import SQL Script
         run: |
               mysql --host=$DATABASE_HOST --user=$DATABASE_USERNAME --password=$DATABASE_PASSWORD --database $DATABASE_NAME < $DATABASE_SCRIPT
+ 
   Deploy_staging:
     name: Deploy Staging
     if: github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/main'
